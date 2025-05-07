@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ordering app</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Web to order food">
+        <meta name="author" content="Joaco">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet"> 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="header-info">
+                <h1 id="title">Jimmy's Dinner</h1>
+                <h2 id="app-description">The best burgurs and pizzas in town</h2>
+            </div>
+        </header>
+	    <main>
+            <div class="feed" id="feed">
+                <!-- Items here!! -->
+            </div>
+            <div class="basket" id="basket">
+                <div class="order-title">
+                    <h1 class="order-h1">Your order:</h1>
+                </div>
+                <div class="items-to-render" id="items-to-render">
+                    
+                </div>  
+                <div class="complete-order">
+                    <button class="order-button" data-complete="complete">Complete order</button>
+                </div>
+            </div>
+            <div class="message-space" id="message-space">
+                <
+            </div>
+        </main>
+        <section class="pop-up" id="pop-up">
+            <div class="pop-up-content" >
+                <div class="payment-pop-up-title">
+                    <h1 class="pop-up-title">Enter card details</h1>
+                </div>
+                <div class="payment-inputs">
+                    <input class="input" type="text" placeholder="Enter your name">
+                    <input class="input" type="number" placeholder="Enter card number">
+                    <input class="input" type="number" placeholder="Enter CCV">
+                </div>
+                <div class="pay-confirmation">
+                    <button class="pay-btn" data-pay="pay">Pay</button>
+                </div>
+            </div>
+        </section>
+        
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
+
